@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(a.png);
+            background-repeat: no-repeat;
+            background-position: center right;
+        }
+        table,tr,th,td{
+            border: 2px solid red;
+        }
+        th,td{
+            padding: 10px;
+            text-align: center;
+        }
+        th{
+            background-color: aqua;
+
+        }
+        tr:hover{
+            background-color: chartreuse;
+        }
+        tr:nth-child(even){
+            background-color:yellow ;
+            
+        }
+        #button{
+            border: 1px solid black;
+            padding:5px;
+            text-decoration: none;
+            margin-left: 100px;
+            border-radius: 5px;
+            background-color: red;
+            color:white;
+
+        }
+        #button:hover{
+            background-color: #880E4F;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student information</h1>
+    <table style="border-collapse: collapse;">
+        <tr>
+            <td rowspan="4">
+                MCA DEPARTMENT
+            </td>
+        </tr>
+        <tr>
+            <th>Roll No.</th>
+            <th>name</th>
+            <th>Course</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>a</td>
+            <td>mca</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>b</td>
+            <td>mca</td>
+            <td>87</td>
+        </tr>
+    
+       
+    </table>
+    <br><br>
+    <a id="button" href="listing.html">open list</a>
+</body>
+</html>
