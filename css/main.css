@@ -1,0 +1,22 @@
+h2{
+    color: chartreuse;
+}
+body{
+    
+}
+#heading{
+    color: red;
+    text-align:center;
+    text-decoration: underline overline;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: gray;
+}
+
+#para1{
+    text-align: justify;
+    text-indent: 40px;
+}
